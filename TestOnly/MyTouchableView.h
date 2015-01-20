@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TouchableUIView.h
 //  TestOnly
 //
 //  Created by Sanad on 1/20/15.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIScrollViewDelegate>
-
+@interface MyTouchableView : UIView
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
-
 @end
-

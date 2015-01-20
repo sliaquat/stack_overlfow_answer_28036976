@@ -15,6 +15,8 @@
 		16D5318C1A6E1082003242BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D5318B1A6E1082003242BC /* Images.xcassets */; };
 		16D5318F1A6E1082003242BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D5318D1A6E1082003242BC /* LaunchScreen.xib */; };
 		16D5319B1A6E1082003242BC /* TestOnlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D5319A1A6E1082003242BC /* TestOnlyTests.m */; };
+		16D531A61A6E10D7003242BC /* MyTouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D531A51A6E10D7003242BC /* MyTouchableView.m */; };
+		16D531A81A6E1139003242BC /* Clinical1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16D531A71A6E1139003242BC /* Clinical1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		16D531941A6E1082003242BC /* TestOnlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOnlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D531991A6E1082003242BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D5319A1A6E1082003242BC /* TestOnlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOnlyTests.m; sourceTree = "<group>"; };
+		16D531A41A6E10D7003242BC /* MyTouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTouchableView.h; sourceTree = "<group>"; };
+		16D531A51A6E10D7003242BC /* MyTouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTouchableView.m; sourceTree = "<group>"; };
+		16D531A71A6E1139003242BC /* Clinical1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clinical1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 		16D5317A1A6E1082003242BC /* TestOnly */ = {
 			isa = PBXGroup;
 			children = (
+				16D531A71A6E1139003242BC /* Clinical1.jpg */,
 				16D5317F1A6E1082003242BC /* AppDelegate.h */,
 				16D531801A6E1082003242BC /* AppDelegate.m */,
 				16D531851A6E1082003242BC /* ViewController.h */,
@@ -92,6 +98,8 @@
 				16D5318D1A6E1082003242BC /* LaunchScreen.xib */,
 				16D531821A6E1082003242BC /* TestOnly.xcdatamodeld */,
 				16D5317B1A6E1082003242BC /* Supporting Files */,
+				16D531A41A6E10D7003242BC /* MyTouchableView.h */,
+				16D531A51A6E10D7003242BC /* MyTouchableView.m */,
 			);
 			path = TestOnly;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D531A81A6E1139003242BC /* Clinical1.jpg in Resources */,
 				16D5318A1A6E1082003242BC /* Main.storyboard in Resources */,
 				16D5318F1A6E1082003242BC /* LaunchScreen.xib in Resources */,
 				16D5318C1A6E1082003242BC /* Images.xcassets in Resources */,
@@ -223,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D531841A6E1082003242BC /* TestOnly.xcdatamodeld in Sources */,
+				16D531A61A6E10D7003242BC /* MyTouchableView.m in Sources */,
 				16D531811A6E1082003242BC /* AppDelegate.m in Sources */,
 				16D531871A6E1082003242BC /* ViewController.m in Sources */,
 				16D5317E1A6E1082003242BC /* main.m in Sources */,
